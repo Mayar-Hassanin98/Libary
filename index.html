@@ -1,0 +1,43 @@
+<html>
+<head>
+    <title>book-App</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <h1>MyBook App</h1>
+  
+    
+    
+</head>
+<body>
+    <div class=container>
+        <form id='book-form'>
+        <label for='title'>Title:</label>
+        <input id='title' >
+        <label for='author'>Author:</label>
+        <input id='author' >
+        <label for='pages'>Pages:</label>
+        <input id='pages' >
+        <input type="submit" value="Add Book"></form>
+     </div>
+     <table class='table'>
+       <thead>
+           <tr>
+               <th>Title</th>
+               <th>Author</th>
+               <th>Pages</th>
+               <th>Readed/NotYet?</th>
+               <th>Delete</th>
+           </tr>
+       </thead>
+
+       <tbody id="book-list"></tbody>
+
+
+     </table>
+
+
+    <script src='script.js'></script>
+</body>
+
+
+
+</html>
